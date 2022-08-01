@@ -190,6 +190,19 @@ div#connected-checkbox input[type=checkbox]:checked {
     border: 2px solid rgb(17, 17, 41);
 }
 
+form input[type=submit] {
+    position: relative;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background: rgb(209,54,57) url(data:image/svg+xml;charset=utf8;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHZpZXdCb3g9IjAgMCAxOCAxOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNC4yNzI3IDEwTDAuNSAxMEwwLjUgOEwxNC4yNzI1IDhMOC41MTM0NSAxLjcyNDk2TDkuODY1NzkgMC4yNTE0NjVMMTcuMjE4OSA4LjI2MzMzQzE3LjU5MjMgOC42NzAyMiAxNy41OTIzIDkuMzI5OTMgMTcuMjE4OSA5LjczNjgyTDkuODY1NzkgMTcuNzQ4N0w4LjUxMzQ1IDE2LjI3NTJMMTQuMjcyNyAxMFoiIGZpbGw9IiNFOEU4RTgiLz4KPC9zdmc+Cg==) center center no-repeat;
+    width: 65px;
+    height: 65px;
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    border-radius: 30%;
+    cursor: pointer;
+}
+
 
 main > div#bground {
     background: url('../images/wallpaper-2.jpg') center center/cover no-repeat;
