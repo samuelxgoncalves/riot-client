@@ -12,6 +12,22 @@
             <img src="images/riot-logo.png" alt="Riot Games logo" id="riot-logo">
 
             <h1 id="sign-in-title">Sign in</h1>
+
+            <form action="sign-up.php" method="post" autocomplete="on">
+                <div>
+                    <label for="id-user">USERNAME</label>
+                    <input type="text" name="user" id="id-user" required placeholder="USERNAME" minlength="5" maxlength="15" autocomplete="username">
+                </div>
+                <div>
+                    <label for="id-pass">PASSWORD</label>
+                    <input type="password" name="pass" id="id-pass" required placeholder="PASSWORD" minlength="8" maxlength="25" autocomplete="current-password">
+                </div>
+                <div id="login-buttons">
+                    <input type="button" value="" id="face-but">
+                    <input type="button" value="" id="goog-but">
+                    <input type="button" value="" id="appl-but">
+                </div>
+            </form>
         </div>
         <div id="bground">
 
